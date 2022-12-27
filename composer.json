@@ -1,0 +1,37 @@
+{
+    "name": "qbbr/locale-configurator-bundle",
+    "description": "Simple configuration on locale",
+    "type": "symfony-bundle",
+    "keywords": ["symfony", "locale", "config", "qbbr"],
+    "homepage": "https://github.com/qbbr/LocaleConfiguratorBundle",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Sokolov Innokenty",
+            "homepage": "https://github.com/qbbr"
+        }
+    ],
+    "require" : {
+        "php": "^7.4|^8.0",
+        "symfony/framework-bundle": "^4.4|^5.0|^6.0",
+        "symfony/http-foundation": "^4.4|^5.0|^6.0",
+        "symfony/yaml": "^4.4|^5.0|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qbbr\\LocaleConfiguratorBundle\\": ""
+        },
+        "exclude-from-classmap": [
+            "Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Qbbr\\LocaleConfiguratorBundle\\Tests\\": "Tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
