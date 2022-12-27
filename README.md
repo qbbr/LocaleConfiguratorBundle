@@ -2,6 +2,11 @@
 
 Simple configuration on locale.
 
+[![Latest Stable Version](https://poser.pugx.org/qbbr/locale-configurator-bundle/v/stable)](https://packagist.org/packages/qbbr/locale-configurator-bundle)
+[![Total Downloads](https://poser.pugx.org/qbbr/locale-configurator-bundle/downloads)](https://packagist.org/packages/qbbr/locale-configurator-bundle)
+[![License](https://poser.pugx.org/qbbr/locale-configurator-bundle/license)](https://packagist.org/packages/qbbr/locale-configurator-bundle)
+[![PHP Version Require](http://poser.pugx.org/qbbr/locale-configurator-bundle/require/php)](https://packagist.org/packages/qbbr/locale-configurator-bundle)
+
 ## Installation
 
 ### Step 1: Download the Bundle
