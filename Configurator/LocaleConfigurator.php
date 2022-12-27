@@ -47,6 +47,11 @@ class LocaleConfigurator
         return null;
     }
 
+    public function has(string $param)
+    {
+        return isset($this->config[$param]);
+    }
+
     /**
      * For set locale manuality.
      */
