@@ -13,6 +13,14 @@ class LocaleConfiguratorExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {
+        if (!$container->hasParameter('qbbr.locale_configurator.config_dir')) {
+            $container->setParameter('qbbr.locale_configurator.config_dir', '%kernel.project_dir%/config/locale_configurator');
+        }
+
+        if (!$container->hasParameter('qbbr.locale_configurator.raise_not_found_param_exception')) {
+            $container->setParameter('qbbr.locale_configurator.raise_not_found_param_exception', false);
+        }
+
         $loader = new YamlFileLoader(
             $container,
             new FileLocator(__DIR__.'/../Resources/config')

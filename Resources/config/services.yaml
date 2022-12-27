@@ -1,7 +1,3 @@
-parameters:
-    qbbr.locale_configurator.config_dir: '%kernel.project_dir%/config/locale_configurator'
-    qbbr.locale_configurator.raise_not_found_param_exception: false
-
 services:
     _defaults:
         autowire: true
