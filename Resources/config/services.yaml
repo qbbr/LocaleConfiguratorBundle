@@ -8,3 +8,6 @@ services:
             $configDir: '%qbbr.locale_configurator.config_dir%'
             $raiseNotFoundParamException: '%qbbr.locale_configurator.raise_not_found_param_exception%'
 
+    Qbbr\LocaleConfiguratorBundle\Twig\LocaleConfiguratorExtension:
+        tags:
+            - { name: twig.extension }

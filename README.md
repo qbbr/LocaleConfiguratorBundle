@@ -47,6 +47,8 @@ parameters:
 
 ## Usage
 
+### PHP
+
 ```php
 use Qbbr\LocaleConfiguratorBundle\Configurator\LocaleConfigurator;
 
@@ -66,6 +68,18 @@ class SomeService
         $param1 = $this->lc->get('param1');
     }
 }
+```
+
+### Twig
+
+has `lc_has`/`lc_get` fn.
+
+```jinja
+{% if lc_has('param1') %}
+    ...
+{% endif %}
+
+{% set param1 = lc_get('param1') %}
 ```
 
 ## Tests
