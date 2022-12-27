@@ -21,6 +21,30 @@ return [
 ];
 ```
 
+## Configuration
+
+#### Config structure
+
+```
+config/locale_configurator/
+├── _default.yaml
+├── en.yaml
+├── ru.yaml
+└── ...
+```
+
+logic: `config = merge(_default.yaml, locale.yaml)`
+
+#### Parameters by default
+
+u can override it.
+
+```yaml
+parameters:
+    qbbr.locale_configurator.config_dir: '%kernel.project_dir%/config/locale_configurator'
+    qbbr.locale_configurator.raise_not_found_param_exception: false
+```
+
 ## Usage
 
 ```php
@@ -42,16 +66,6 @@ class SomeService
         $param1 = $this->lc->get('param1');
     }
 }
-```
-
-## Configuration
-
-parameters by default, u can overide it:
-
-```yaml
-parameters:
-    qbbr.locale_configurator.config_dir: '%kernel.project_dir%/config/locale_configurator'
-    qbbr.locale_configurator.raise_not_found_param_exception: false
 ```
 
 ## Tests
