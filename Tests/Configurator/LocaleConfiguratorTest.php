@@ -20,7 +20,7 @@ class LocaleConfiguratorTest extends TestCase
         );
 
         $lc->setLocale('en');
-        $this->assertSame(false, $lc->get('param1'));
+        $this->assertFalse($lc->get('param1'));
         $this->assertSame('test str', $lc->get('param2_str'));
     }
 
@@ -33,7 +33,7 @@ class LocaleConfiguratorTest extends TestCase
         );
 
         $lc->setLocale('ru');
-        $this->assertSame(true, $lc->get('param1'));
+        $this->assertTrue($lc->get('param1'));
         $this->assertSame('test str', $lc->get('param2_str'));
         $this->assertSame(42, $lc->get('param3'));
     }
