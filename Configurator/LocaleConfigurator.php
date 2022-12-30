@@ -47,7 +47,7 @@ class LocaleConfigurator
         return null;
     }
 
-    public function has(string $param)
+    public function has(string $param): bool
     {
         return isset($this->config[$param]);
     }
