@@ -2,6 +2,7 @@
 
 Simple configuration on locale.
 
+[![Tests](https://github.com/qbbr/LocaleConfiguratorBundle/workflows/Tests/badge.svg)](https://github.com/qbbr/LocaleConfiguratorBundle/actions)
 [![Latest Stable Version](https://poser.pugx.org/qbbr/locale-configurator-bundle/v/stable)](https://packagist.org/packages/qbbr/locale-configurator-bundle)
 [![Total Downloads](https://poser.pugx.org/qbbr/locale-configurator-bundle/downloads)](https://packagist.org/packages/qbbr/locale-configurator-bundle)
 [![License](https://poser.pugx.org/qbbr/locale-configurator-bundle/license)](https://packagist.org/packages/qbbr/locale-configurator-bundle)
