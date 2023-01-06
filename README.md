@@ -7,6 +7,7 @@ Simple configuration on locale.
 [![Total Downloads](https://poser.pugx.org/qbbr/locale-configurator-bundle/downloads)](https://packagist.org/packages/qbbr/locale-configurator-bundle)
 [![License](https://poser.pugx.org/qbbr/locale-configurator-bundle/license)](https://packagist.org/packages/qbbr/locale-configurator-bundle)
 [![PHP Version Require](http://poser.pugx.org/qbbr/locale-configurator-bundle/require/php)](https://packagist.org/packages/qbbr/locale-configurator-bundle)
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
 
 ## Installation
 
